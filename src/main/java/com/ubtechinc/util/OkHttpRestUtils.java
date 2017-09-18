@@ -40,6 +40,12 @@ public class OkHttpRestUtils {
 		return client;
 	}
 
+	/**
+	 * 参数规范化
+	 * @param params
+	 * @return
+	 * @throws UnsupportedEncodingException
+	 */
 	private static String prepareParams(Map<String,Object> params) throws UnsupportedEncodingException {
 		StringBuilder strBuilder = new StringBuilder();
 		if(params.isEmpty()) {

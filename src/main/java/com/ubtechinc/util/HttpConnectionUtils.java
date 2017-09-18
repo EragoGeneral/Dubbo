@@ -26,7 +26,7 @@ import java.util.Set;
 public class HttpConnectionUtils {
 
 	/**
-	 * 
+	 * 参数配置，生产产生请求
 	 * @param paramsMap
 	 * @return
 	 * @throws Exception
